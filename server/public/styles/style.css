@@ -1,18 +1,26 @@
 img {
     height: 160px;
     width: 160px;
+    display: block;
+    margin: 0 auto;
+    border: 1px solid black;
 }
 
 .person {
     margin: 10px;
     position: relative;
+    width: 300px;
 }
 
 .person p{
     text-align: center;
 }
 
-img {
+button{
+    display: block;
+}
+
+.deleteme {
     display: block;
     margin: 0 auto;
 }
